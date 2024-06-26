@@ -2,6 +2,11 @@
     font-family: Montserrat;
     text-align: center;
 }
+.tarifs-bitrix24-market-plus, .conteiner-price-bitrix24-market-plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .nav-month-year-bitrix24-market-plus {
     border: 2px solid #30d4c7;
     border-radius: 15px;
@@ -26,22 +31,79 @@
     background-color: #30d4c7;
     color: white;
 }
-.tarifs-bitrix24-market-plus {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .for-tarif-bitrix24-market-plus {
     font-size: 12px;
     margin-bottom: -20px;
 }
 .element-tarifs-bitrix24-market-plus {
     background-color: #ebeff2;
+    margin: 10px;
+    min-width: 250px;
+    border-radius: 20px;
 }
 .s-text-bitrix24-market-plus {
     font-size: 13px;
     margin-bottom: -10px;
+    opacity: 0.5;
 }
 .price-bitrix24-market-plus {
     font-size: 20px;
+}
+.header-element-tarifs-bitrix24-market-plus {
+    background-color: #9cd9d5;
+    padding: 1px 0px;
+    border-radius: 20px 20px 0px 00px;
+}
+.count-users-bitrix24-market-plus {
+    font-size: 19px;
+}
+.users-bitrix24-market-plus {
+    padding: 7px 0px;
+}
+.discount-bitrix24-market-plus {
+    margin-left: 10px;
+    background-color: rgba(207, 247, 50, 0.7);
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 6px;
+    transform: skewX(-10deg);
+}
+.for-all-users-bitrix24-market-plus {
+    font-size: 12px;
+    margin-top: -13px;
+    padding-bottom: 5px;
+}
+.change-users-bitrix24-market-plus {
+    border: 2px solid grey;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 5px 0px;
+    cursor: pointer;
+}
+.change-users-bitrix24-market-plus {
+    border: 2px solid grey;
+    padding: 7px;
+    margin: 15px 20px 0px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.users-content-bitrix24-market-plus {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 220px;
+    margin-left: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+}
+.users-content-bitrix24-market-plus p {
+    color: black;
+    padding: 6px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
 }
