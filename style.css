@@ -1,0 +1,47 @@
+.montserrat-bitrix24-market-plus {
+    font-family: Montserrat;
+    text-align: center;
+}
+.nav-month-year-bitrix24-market-plus {
+    border: 2px solid #30d4c7;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-month-bitrix24-market-plus, .nav-year-bitrix24-market-plus {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-weight: bold;
+    color: #30d4c7;
+    cursor: pointer;
+}
+.nav-year-bitrix24-market-plus {
+    background-color: #30d4c7;
+    color: white;
+}
+.tarifs-bitrix24-market-plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.for-tarif-bitrix24-market-plus {
+    font-size: 12px;
+    margin-bottom: -20px;
+}
+.element-tarifs-bitrix24-market-plus {
+    background-color: #ebeff2;
+}
+.s-text-bitrix24-market-plus {
+    font-size: 13px;
+    margin-bottom: -10px;
+}
+.price-bitrix24-market-plus {
+    font-size: 20px;
+}
