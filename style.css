@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .nav-month-year-bitrix24-market-plus {
     border: 2px solid #30d4c7;
@@ -58,7 +59,8 @@
     font-size: 19px;
 }
 .users-bitrix24-market-plus {
-    padding: 7px 0px;
+    padding: 6px 0px;
+    margin-bottom: -5px;
 }
 .discount-bitrix24-market-plus {
     margin-left: 10px;
@@ -84,8 +86,8 @@
 }
 .change-users-bitrix24-market-plus {
     border: 2px solid grey;
-    padding: 7px;
-    margin: 15px 20px 0px 20px;
+    padding: 6px;
+    margin: 15px 20px -8px 20px;
     border-radius: 10px;
     cursor: pointer;
 }
