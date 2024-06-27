@@ -51,7 +51,7 @@
     font-size: 20px;
 }
 .header-element-tarifs-bitrix24-market-plus {
-    background-color: #9cd9d5;
+    background-color: #30d5c7;
     padding: 1px 0px;
     border-radius: 20px 20px 0px 00px;
 }
@@ -108,4 +108,10 @@
     display: block;
     font-size: 16px;
     cursor: pointer;
+}
+.title-box-bitrix24-market-plus {
+    text-align: left; 
+    width: 900px; 
+    margin-left: auto; 
+    margin-right: auto;
 }
