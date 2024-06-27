@@ -48,7 +48,7 @@
     opacity: 0.5;
 }
 .price-bitrix24-market-plus {
-    font-size: 20px;
+    font-size: 19px;
 }
 .header-element-tarifs-bitrix24-market-plus {
     background-color: #30d5c7;
@@ -56,7 +56,7 @@
     border-radius: 20px 20px 0px 00px;
 }
 .count-users-bitrix24-market-plus {
-    font-size: 19px;
+    font-size: 20px;
 }
 .users-bitrix24-market-plus {
     padding: 6px 0px;
@@ -111,7 +111,29 @@
 }
 .title-box-bitrix24-market-plus {
     text-align: left; 
-    width: 900px; 
+    width: 800px; 
     margin-left: auto; 
     margin-right: auto;
+    font-weight: bold;
+    font-size: 18px;
+}
+.users-korpkvar-bitrix24-market-plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.count-users-korpkvar-bitrix24-market-plus {
+    margin-left: 5px;
+    margin-bottom: -15px;
+    font-size: 16px;
+}
+.users-50-bitrix24-market-plus {
+    border: 2px solid #30d5c7;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.users-50-bitrix24-market-plus, .users-100-bitrix24-market-plus, .users-250-bitrix24-market-plus, .users-500-bitrix24-market-plus {
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
 }

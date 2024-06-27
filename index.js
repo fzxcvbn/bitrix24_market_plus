@@ -4,7 +4,12 @@ let users_content_bitrix24_market_plus = document.querySelector(".users-content-
     nav_month_bitrix24_market_plus = document.querySelector(".nav-month-bitrix24-market-plus"),
     nav_year_bitrix24_market_plus = document.querySelector(".nav-year-bitrix24-market-plus"),
     s_text_bitrix24_market_plus = document.querySelectorAll(".s-text-bitrix24-market-plus"),
-    discount_bitrix24_market_plus = document.querySelectorAll(".discount-bitrix24-market-plus")
+    discount_bitrix24_market_plus = document.querySelectorAll(".discount-bitrix24-market-plus"),
+    users_50_bitrix24_market_plus = document.querySelector(".users-50-bitrix24-market-plus"),
+    users_100_bitrix24_market_plus = document.querySelector(".users-100-bitrix24-market-plus"),
+    users_250_bitrix24_market_plus = document.querySelector(".users-250-bitrix24-market-plus"),
+    users_500_bitrix24_market_plus = document.querySelector(".users-500-bitrix24-market-plus"),
+    price_korpkvar_bitrix24_market_plus = document.querySelector(".price-korpkvar-bitrix24-market-plus"),
     i = 0
 
 nav_month_bitrix24_market_plus.addEventListener("click", function() {
@@ -118,3 +123,35 @@ function users10000_bitrix24() {
     change_users_bitrix24_market_plus.style.backgroundColor = 'rgb(242, 242, 242)'
     change_users_bitrix24_market_plus.style.border = '2px solid grey'
 }
+
+users_50_bitrix24_market_plus.addEventListener("click", function() {
+    users_50_bitrix24_market_plus.style.border = '2px solid #30d5c7'
+    users_100_bitrix24_market_plus.style.border = 'none'
+    users_250_bitrix24_market_plus.style.border = 'none'
+    users_500_bitrix24_market_plus.style.border = 'none'
+    price_korpkvar_bitrix24_market_plus.textContent = '83 400₽/мес.'
+})
+
+users_100_bitrix24_market_plus.addEventListener("click", function() {
+    users_50_bitrix24_market_plus.style.border = 'none'
+    users_100_bitrix24_market_plus.style.border = '2px solid #30d5c7'
+    users_250_bitrix24_market_plus.style.border = 'none'
+    users_500_bitrix24_market_plus.style.border = 'none'
+    price_korpkvar_bitrix24_market_plus.textContent = '119 400₽/мес.'
+})
+
+users_250_bitrix24_market_plus.addEventListener("click", function() {
+    users_50_bitrix24_market_plus.style.border = 'none'
+    users_100_bitrix24_market_plus.style.border = 'none'
+    users_250_bitrix24_market_plus.style.border = '2px solid #30d5c7'
+    users_500_bitrix24_market_plus.style.border = 'none'
+    price_korpkvar_bitrix24_market_plus.textContent = '110 400₽/мес.'
+})
+
+users_500_bitrix24_market_plus.addEventListener("click", function() {
+    users_50_bitrix24_market_plus.style.border = 'none'
+    users_250_bitrix24_market_plus.style.border = 'none'
+    users_100_bitrix24_market_plus.style.border = 'none'
+    users_500_bitrix24_market_plus.style.border = '2px solid #30d5c7'
+    price_korpkvar_bitrix24_market_plus.textContent = '119 400₽/мес.'
+})
