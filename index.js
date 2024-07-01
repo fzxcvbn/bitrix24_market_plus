@@ -145,7 +145,7 @@ users_2502_bitrix24_market_plus.addEventListener("click", function() {
     users_1002_bitrix24_market_plus.style.border = 'none'
     users_2502_bitrix24_market_plus.style.border = '2px solid #30d5c7'
     users_5002_bitrix24_market_plus.style.border = 'none'
-    price_korpkvar_bitrix24_market_plus.textContent = '110 400₽/мес.'
+    price_korpkvar_bitrix24_market_plus.textContent = '119 400₽/мес.'
 })
 
 users_5002_bitrix24_market_plus.addEventListener("click", function() {
